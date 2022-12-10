@@ -1,0 +1,49 @@
+header{
+        width: 100%;
+        background-color: $color-02;
+
+        .container {
+           width: 1800px;
+           
+           
+
+            .logo {
+                max-width: 15%;
+                align-items: center;
+                justify-content: center;
+                float: left;
+               
+                
+                
+                img {
+                max-width: 100%;
+                }
+            }
+
+            nav {
+                width: 85%;
+                display: flex;               
+                float: right;          
+                justify-content: flex-end;           
+                margin-top: 2rem;
+                
+                
+                    li{
+                        max-width: 100%;
+                        list-style: none;
+                        margin-right: 5rem;
+                        
+
+
+                            a {
+                                text-decoration: none;
+                                font-size: $font-normal;
+                                margin-left: 8rem;
+                                
+                            }
+
+                    }
+            }
+        }
+
+}
